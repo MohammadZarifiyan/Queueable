@@ -1,0 +1,27 @@
+{
+    "name": "mohammad-zarifiyan/queueable",
+    "description": "A Laravel package to make your models queueable.",
+    "type": "library",
+    "require": {
+        "laravel/framework": "~7.*|8.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MohammadZarifiyan\\Queueable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Zarifiyan",
+            "email": "mohammadzarifiyan82@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MohammadZarifiyan\\Queueable\\QueueableServiceProvider"
+            ]
+        }
+    }
+}
