@@ -18,10 +18,10 @@ class QueueableScope implements Scope
         'Expire',
     ];
 
-	public function apply(Builder $builder, Model $model)
-	{
-		return $builder;
-	}
+    public function apply(Builder $builder, Model $model)
+    {
+        return $builder;
+    }
 
     public function extend(Builder $builder)
     {
