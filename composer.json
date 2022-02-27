@@ -3,7 +3,7 @@
     "description": "A Laravel package to make your models queueable.",
     "type": "library",
     "require": {
-        "laravel/framework": "^7|^8|^9"
+        "laravel/framework": "~7"
     },
     "license": "MIT",
     "autoload": {
